@@ -1,0 +1,15 @@
+{
+  "name": "fem-htmlcss-newbie-20-grid-landing-page",
+  "version": "0.1.0",
+  "description": "Frontend Mentor - Grid Landing Page",
+  "author": "VIMP",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "servor . --reload"
+  },
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+}
