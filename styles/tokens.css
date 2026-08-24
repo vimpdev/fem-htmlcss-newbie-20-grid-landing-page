@@ -1,0 +1,42 @@
+@layer tokens {
+
+  :root {
+    /* PRIMARY TOKENS */
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-blue-200: hsl(227, 100%, 88%);
+    --color-blue-400: hsl(220, 100%, 64%);
+    --color-blue-600: hsl(228, 100%, 60%);
+    --color-blue-700: hsl(228, 99%, 58%);
+
+    --space-0: 0;
+    --space-300: 1.5rem;
+    --space-400: 2rem;
+    --space-600: 3rem;
+    --space-700: 3.5rem;
+
+    /* SEMANTIC TOKENS */
+    --color-bg-main: var(--color-blue-700);
+    --color-overlay: color-mix(in srgb, var(--color-black) 25%, transparent);
+    --color-bg-card-interactive: var(--color-blue-600);
+
+    --color-text-primary: var(--color-white);
+    --color-text-secondary: var(--color-blue-200);
+
+    --color-border-subtle: var(--color-blue-400);
+
+    /* OTHERS TOKENS */
+    --font-family-base: 'Inter', system-ui, sans-serif;
+
+    --font-size-100: 0.875rem;
+    --font-size-200: 1.0625rem;
+    --font-size-300: 2rem;
+    --font-size-400: 2.25rem;
+    --font-size-500: clamp(2.75rem, 1.7958rem + 4.0712vw, 3.75rem);
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+
+    --transition-fast: 250ms ease-out;
+  }
+}

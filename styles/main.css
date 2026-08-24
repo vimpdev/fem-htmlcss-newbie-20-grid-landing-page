@@ -1,0 +1,26 @@
+@layer reset, fonts, tokens, base, layout, components, utilities, responsive;
+
+@import url('./reset.css') layer(reset);
+@import url('./fonts.css') layer(fonts);
+@import url('./tokens.css') layer(tokens);
+
+@layer base {
+
+  body {
+    font-family: var(--font-family-base);
+    font-size: 1rem;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring, currentColor);
+    outline-offset: 3px;
+  }
+}
+
+@layer layout {}
+
+@layer components {}
+
+@layer utilities {}
+
+@layer responsive {}
