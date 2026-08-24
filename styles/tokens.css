@@ -18,7 +18,7 @@
     /* SEMANTIC TOKENS */
     --color-bg-main: var(--color-blue-700);
     --color-overlay: color-mix(in srgb, var(--color-black) 25%, transparent);
-    --color-bg-card-interactive: var(--color-blue-600);
+    --color-bg-interactive: var(--color-blue-600);
 
     --color-text-primary: var(--color-white);
     --color-text-secondary: var(--color-blue-200);
