@@ -32,4 +32,12 @@ The designs were created to the following widths:
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 400, 500
 
+### Here are some ideas to take the project a step further:
+
+- Animate the menu panel so it slides in from the edge instead of appearing instantly
+- Count the stat numbers up from zero when the page loads
+- Trap keyboard focus inside the menu while it's open so tabbing can't escape behind it
+- Respect prefers-reduced-motion so any animation turns itself off for people who ask for it
+- Load the four stats from a JSON file instead of hardcoding them in your HTML
+
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.

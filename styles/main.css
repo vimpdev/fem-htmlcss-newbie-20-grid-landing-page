@@ -93,7 +93,7 @@
     block-size: 2rem;
     display: grid;
     place-items: center;
-    transition: background-color var(--transition-fast);
+    transition: background-color 250ms ease-out;
 
     img {
       position: absolute;
@@ -123,11 +123,12 @@
     padding: var(--space-600);
     background-color: var(--color-bg-main);
     translate: 150vw 0;
-    transition: translate var(--transition-fast);
+    transition: translate 500ms ease;
     z-index: 10;
   }
 
   .header__nav.is-expanded {
+    transition: translate 500ms ease;
     translate: 0 0;
   }
 
@@ -216,7 +217,7 @@
   .stat__link {
     position: absolute;
     inset: 0;
-    transition: background-color var(--transition-fast);
+    transition: background-color 250ms ease-out;
   }
 
   /* *********** */
@@ -280,7 +281,7 @@
       background-color: currentColor;
       transform-origin: center;
       transform: scaleX(0);
-      transition: transform var(--transition-fast);
+      transition: transform 250ms ease-out;
     }
   }
 }
