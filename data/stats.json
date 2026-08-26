@@ -1,0 +1,30 @@
+[
+  {
+    "value": "2.4M",
+    "title": "Students reached",
+    "description": "Across 31 countries since 2011.",
+    "icon": "./assets/icons/sparkle.svg",
+    "href": "#"
+  },
+  {
+    "value": "1,284",
+    "title": "Schools partnered",
+    "description": "In 14 countries, from Kenya to Guatemala.",
+    "icon": "./assets/icons/plus.svg",
+    "href": "#"
+  },
+  {
+    "value": "38K",
+    "title": "Teachers trained",
+    "description": "Equipping educators with modern tools and methodology.",
+    "icon": "./assets/icons/arrow-right.svg",
+    "href": "#"
+  },
+  {
+    "value": "3.1×",
+    "title": "Graduation lift",
+    "description": "Partner schools outperform national averages 3x.",
+    "icon": "./assets/icons/trending-up.svg",
+    "href": "#"
+  }
+]
