@@ -16,7 +16,7 @@ A Frontend Mentor challenge implemented as a small, production-minded front-end 
 ## Links
 
 - [**Live Preview**](https://vimpdev.github.io/fem-htmlcss-newbie-20-grid-landing-page/)
-<!-- - [**Frontend Mentor Solution**]() -->
+- [**Frontend Mentor Solution**](https://www.frontendmentor.io/solutions/grid-landing-page-modern-css-accessible-navigation-and-json-data-HoeSQGcw0v)
 
 ---
 
