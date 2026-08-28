@@ -18,7 +18,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-focus-ring, currentColor);
+    outline: 2px solid var(--color-focus-ring);
     outline-offset: 3px;
   }
 }
@@ -122,14 +122,16 @@
 
     padding: var(--space-600);
     background-color: var(--color-bg-main);
-    translate: 150vw 0;
-    transition: translate 500ms ease;
+    opacity: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 500ms ease, opacity 250ms ease;
     z-index: 10;
   }
 
   .header__nav.is-expanded {
-    transition: translate 500ms ease;
-    translate: 0 0;
+    opacity: 1;
+    transform: scaleX(1);
   }
 
   .menu {
@@ -176,7 +178,7 @@
     block-size: 20.5rem;
     justify-content: space-between;
 
-    &:not(:last-of-type) {
+    &:not(:last-child) {
       border-bottom: 1px solid var(--color-border-subtle);
     }
   }
@@ -254,13 +256,13 @@
   body.is-menu-open .footer {
     position: relative;
     isolation: isolate;
-    pointer-events: none;
 
     &::after {
       content: '';
       position: absolute;
       inset: 0;
       background-color: var(--color-overlay);
+      z-index: 1;
     }
   }
 
@@ -358,12 +360,12 @@
       padding: var(--space-400);
       border-bottom: none;
 
-      &:first-of-type,
-      &:nth-of-type(2) {
+      &:first-child,
+      &:nth-child(2) {
         border-bottom: 1px solid var(--color-border-subtle);
       }
 
-      &:nth-of-type(2n) {
+      &:nth-child(2n) {
         border-left: 1px solid var(--color-border-subtle);
       }
     }

@@ -25,6 +25,8 @@
 
     --color-border-subtle: var(--color-blue-400);
 
+    --color-focus-ring: var(--color-white);
+
     /* OTHERS TOKENS */
     --font-family-base: 'Inter', system-ui, sans-serif;
 
